@@ -1,5 +1,7 @@
 #!/usr/bin/python3
 # coding: utf-8
+# Comprendre les modules time et datetime
+
 import time
 import datetime
 

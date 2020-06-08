@@ -1,3 +1,7 @@
+#!/usr/bin/python3
+#coding: utf-8
+# Différentes classes pour mieux comprendre comment fonctionnent les itérateurs
+
 # METHODE 1 : On créé une classe héritant de string et contenant un itérateur différent
 class RevStr(str):
     def __iter__(self):

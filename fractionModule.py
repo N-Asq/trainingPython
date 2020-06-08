@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 #coding: utf-8
+# Module Fraction
 from fractions import Fraction
 unDemi = Fraction(1,2)
 unTiers = Fraction("1/3")

@@ -38,6 +38,9 @@ if __name__=="__main__":
     print("\nRecherche du groupe (chi) au moins 1 fois :")
     print(re.search("(chi)+",chaine))
 
+    # Le numéro de téléphone commence par 0 ou +xyz avec xyz dans [1-9] et est suivi d'un chiffre dans [0-9],
+    # puis de 4 paires de nombres dans [0-9], possiblement séparé par [ .-]
+    # ^ et $ indiquent que la chaîne ne doit comporter que et uniquement cette expression 
     regExp = r"^((0|(\+[1-9]{1,3}))[0-9]([ .-]?[0-9]{2}){4})$"
     compRegExp = re.compile(regExp) # Compilation pour gagner en rapidité lors des opérations
     telNum = ""

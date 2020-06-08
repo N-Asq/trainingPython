@@ -1,3 +1,7 @@
+#!/usr/bin/python3
+#coding: utf-8
+#Comprendre le fionctionnement d'un  générateur
+
 def entreBornes(borneInf, borneSup):
     if borneInf>borneSup:
         print("Les bornes sont dans le mauvais sens, on inverse.")

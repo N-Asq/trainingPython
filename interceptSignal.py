@@ -1,5 +1,7 @@
 #!/usr/bin/python3
 #coding: utf-8
+
+# Intercepter les signaux de l'OS et s'en servir
 import sys
 import signal
 

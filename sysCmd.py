@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 #coding: utf-8
+# Envoyez des cmd system
 import os
 if __name__ == "__main__":
     print("Tests :")
